@@ -1,7 +1,7 @@
 
 /* links ------------------------------------------------------------------- */
 
-a          { color: #09ab64; }
+a          { color: black; }
 a:active   { color: #555; }
 a:hover    { color: #000;    text-decoration:underline }
 
@@ -19,7 +19,7 @@ body {
   font-size: 11pt;
   line-height: 1.4em;
   margin: 0;
-  font-family: 'Helvetica';
+  font-family: 'Courier New', Monospace;
 }
 
 .page {
@@ -32,7 +32,7 @@ body {
 /* headers ----------------------------------------------------------------- */
 
 h1, h2, h3 {
-  font-family: 'Helvetica';
+  font-family: 'Courier New', Monospace;
 }
 
 h1, h2, h3 {
@@ -42,7 +42,7 @@ h1, h2, h3 {
 h2 {
   text-transform: uppercase;
   letter-spacing: .125em;
-  font-family: Helvetica;
+  font-family: 'Courier New', Monospace;
   margin-top: 1.4em;
   margin-bottom: 1.4em;
   padding: 0;
@@ -67,14 +67,12 @@ p {
 }
 
 .header-menu {
-  border-top: 6px solid #09ab64;
-  border-bottom: 2px solid #09ab64;
-  text-transform: uppercase;
-  letter-spacing: 0.125em;
+  
 }
 
 h1, h2, #site-menu {
-  font-size: 1em;
+  font-size: 2em;
+  padding-bottom: 2em;
 }
 
 
@@ -96,7 +94,7 @@ h1, h2, #site-menu {
 
 .work-title {
   margin-top: 0;
-  font-family: 'BaseMonoThin';
+  font-family: 'Courier New', Monospace;
 }
 
 #header ul {
@@ -180,7 +178,12 @@ h1, h2, #site-menu {
 }
 
 .work:hover {
-  border: 1px solid #09ab64;
+  border: 1px solid black;
+  background: black;
+}
+
+.work:hover a {
+  color: white;
 }
 
 .first-work {
@@ -210,6 +213,7 @@ h1, h2, #site-menu {
 
 .work-title-splash {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .work-date {
