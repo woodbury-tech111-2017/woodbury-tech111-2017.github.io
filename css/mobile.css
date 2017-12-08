@@ -1,0 +1,232 @@
+
+
+
+/* links ------------------------------------------------------------------- */
+
+a          { color: #09ab64; }
+a:active   { color: #555; }
+a:hover    { color: #000;    text-decoration:underline }
+
+a img {
+  border: none;
+}
+
+
+/* general page structure -------------------------------------------------- */
+
+body {
+  font-size: 11pt;
+  line-height: 1.4em;
+  margin: 0;
+  font-family: 'Helvetica';
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/* headers ----------------------------------------------------------------- */
+
+h1, h2, h3 {
+  font-family: 'Helvetica';
+}
+
+h1, h2, h3 {
+  font-size: 1em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: .125em;
+  font-family: Helvetica;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+  padding: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* basic element styles ---------------------------------------------------- */
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.4em;
+}
+
+#header-image {
+  margin-top:16px;
+  margin-left:10px;
+  margin-bottom:8px;
+}
+
+.header-menu {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 6px solid #09ab64;
+  border-bottom: 2px solid #09ab64;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+h1, h2, #site-menu {
+  font-size: 1em;
+}
+
+
+/* menu & header ----------------------------------------------------------- */
+
+.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#site-menu {
+  text-align: right;
+}
+
+#header h1 {
+  float: left;
+  margin: 0;
+}
+
+.work-title {
+  margin-top: 0;
+  font-family: 'Helvetica';
+}
+
+#header ul {
+  margin: 0;
+  padding: 0;
+}
+
+#header ul li {
+  list-style-type: none;
+  list-style-image: none;
+  display: inline-block;
+}
+
+.intro {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 1em;
+}
+
+/* page content ------------------------------------------------------------ */
+
+div.post {
+  padding: 0 10px;
+}
+
+.post p, .about {
+  width: 100%;
+}
+
+.post img, .video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.right-images {
+  width:100%;
+}
+
+.page-content {
+  padding: 30px 0px;
+}
+
+.line-buffer {
+  margin-bottom: 1.4em;
+}
+
+/* projects list on front page --------------------------------------------- */
+
+.work, .last-work, .first-work {
+  display: inline-block;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  width: 100%;
+  background: #09ab64;
+}
+
+.work:hover {
+
+}
+
+.work p {
+  margin: 0px;
+}
+
+
+.work img {
+  width: 100%;
+}
+
+.work p {
+  margin: 0;
+  padding: 0;
+}
+
+.work a {
+  text-decoration: none;
+  color: white;
+}
+
+.work-title-splash {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.work-date {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social a {
+  margin-right: .5em;
+}
+
+/* grid structure ----------------------------------------------------------
+ *
+ * 920px wide overall, 30 columns @21px with 10px gutters
+ *
+ */
+
+.grid-padding-x {
+  margin-right: 10px;
+}
+
+.col-3-block, .col-5-block, .col-10-block, .col-15-block, .col-30-block {
+  display: inline-block;
+}
+
+.col-3-block {
+  width: 83px;
+}
+
+.image-grid {
+  margin-bottom: 10px;
+}
+
+.image-grid a {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.about {
+  margin-top: 2.8em;
+}

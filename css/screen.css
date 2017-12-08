@@ -1,0 +1,347 @@
+
+/* links ------------------------------------------------------------------- */
+
+a          { color: #09ab64; }
+a:active   { color: #555; }
+a:hover    { color: #000;    text-decoration:underline }
+
+a img {
+  border: none;
+}
+
+a, a div, a i, a img, a span {
+  cursor: pointer
+}
+
+/* general page structure -------------------------------------------------- */
+
+body {
+  font-size: 11pt;
+  line-height: 1.4em;
+  margin: 0;
+  font-family: 'Helvetica';
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+
+/* headers ----------------------------------------------------------------- */
+
+h1, h2, h3 {
+  font-family: 'Helvetica';
+}
+
+h1, h2, h3 {
+  font-size: 1em;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: .125em;
+  font-family: Helvetica;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+  padding: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* basic element styles ---------------------------------------------------- */
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.4em;
+}
+
+#header-image {
+  padding-top:16px;
+
+  padding-bottom:8px;
+}
+
+.header-menu {
+  border-top: 6px solid #09ab64;
+  border-bottom: 2px solid #09ab64;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+h1, h2, #site-menu {
+  font-size: 1em;
+}
+
+
+/* menu & header ----------------------------------------------------------- */
+
+.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#site-menu {
+  text-align: right;
+}
+
+#header h1 {
+  float: left;
+  margin: 0;
+}
+
+.work-title {
+  margin-top: 0;
+  font-family: 'BaseMonoThin';
+}
+
+#header ul {
+  margin: 0;
+  padding: 0;
+}
+
+#header ul li {
+  list-style-type: none;
+  list-style-image: none;
+  display: inline-block;
+}
+
+
+/* page content ------------------------------------------------------------ */
+
+.post p, .about {
+  max-width: 734px;
+}
+
+.post .video {
+  float: left;
+}
+
+.post h1, .post h2, .post h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post h2 {
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.post h1 {
+  font-size: 1.5em;
+}
+
+.float-right {
+  float:right;
+}
+
+.right-images {
+  height: 343px;
+}
+
+.page-content {
+  padding: 30px 0;
+}
+
+.page-content p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line-buffer {
+  margin-bottom: 1.4em;
+}
+
+/* projects list on front page --------------------------------------------- */
+
+.intro {
+  margin-left: 10px;
+  margin-bottom: 1em;
+  display: inline-block;}
+
+#works {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5px;
+}
+
+.work {
+  padding: 4px;
+  border: 1px solid white;
+  min-width: 200px;
+  width: 300px;
+  max-width: 100%;
+  flex: 1 1 auto;
+  margin-bottom: 5px;
+}
+
+.work:hover {
+  border: 1px solid #09ab64;
+}
+
+.first-work {
+  margin: 0 0 5px 5px;
+}
+
+.work p {
+  margin: 0px;
+}
+
+.last-work {
+  margin: 0 0 5px 0;
+}
+
+.work img {
+  width: 100%;
+}
+
+.work p {
+  margin: 0;
+  padding: 0;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.work-title-splash {
+  text-decoration: underline;
+}
+
+.work-date {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.featured {
+  max-width: 920px;
+  width: 100%;
+}
+
+.featured img {
+  width: 100%;
+}
+
+.social {
+  margin-left: 10px;
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social a {
+  margin-right: .5em;
+}
+
+/* grid structure ----------------------------------------------------------
+ *
+ * 920px wide overall, 30 columns @21px with 10px gutters
+ *
+ */
+
+.grid-padding-x {
+  margin-right: 10px;
+}
+
+.col-3-block, .col-5-block, .col-10-block, .col-20-block, .col-15-block, .col-30-block {
+  display: inline-block;
+  flex: 1 1 auto;
+}
+
+.col-3-block img, .col-5-block img, .col-20-block img, .col-10-block img, .col-15-block img, .col-30-block img {
+  width: 100%;
+  height: auto;
+}
+
+.col-15-block {
+  max-width: 455px;
+  height: auto;
+}
+
+.col-10-block {
+  max-width: 300px;
+  height: auto;
+}
+
+.col-20-block {
+  max-width: 610px;
+  height: auto;
+}
+
+.col-30-block {
+  max-width: 920px;
+  height: auto;
+}
+
+.col-3-block {
+  width: 83px;
+}
+
+.col-5-block {
+  width: 145px;
+}
+
+.invisible-margin {
+  margin-left:  10px;
+  margin-right: 10px;
+}
+
+.grid-margin-right {
+  margin-right: 10px;
+}
+
+.grid-margin-left {
+  margin-left: 10px;
+}
+
+.grid-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.image-grid img {
+}
+
+.image-grid a {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.image-grid {
+  line-height: 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-inline {
+  width: 100%;
+  max-width: 734px;
+}
+
+.about {
+  margin-top: 2.8em;
+  font-size: 0.8em;
+}
+
+.video610 {
+  width: 610px;
+  height: auto;
+}
+
+.video455 {
+  width: 455px;
+  height: 256px;
+}
+
+.grid-crop-hack {
+  width: 300px; height:164px; 
+  overflow:hidden;
+  margin-bottom: 10px;
+}
